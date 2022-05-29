@@ -1,0 +1,260 @@
+* {
+  padding: 100;
+  margin: 100;
+  box-sizing: border-box;
+}
+
+/* INICIO DE CSS INDEX  */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+}
+
+.card img {
+  height: 250px;
+  width: 250px;
+  align-items: center;
+}
+.card-body{
+  display: flex;
+  justify-content: center;
+}
+.boton-index {
+  margin-top: 2rem;
+  color: rgb(41, 37, 37);
+  background: rgb(228, 222, 213);
+  outline: none;
+  border: antiquewhite;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+}
+
+.card p {
+  background-color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  color: aliceblue;
+}
+
+.Logo_header {
+  width: 40px;
+  height: 40px;
+}
+
+.grid-todo {
+  display: grid;
+}
+
+.article {
+  display: flex;
+  justify-content: stretch;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.337);
+  display: grid;
+}
+
+nav ul {
+  display: flex;
+  line-height: 30px;
+  list-style: none;
+  margin: 10px;
+  gap: 20px;
+}
+
+.nav_link {
+  display: flex;
+  color: rgb(21, 125, 204);
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.imagen-1 {
+  width: 400px;
+  height: 350px;
+  border: none;
+}
+
+.Principio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Titulo-1 {
+  margin-bottom: 2rem;
+  font-size: 40px;
+}
+
+.Texto-1 {
+  color: rgb(0, 0, 0);
+}
+
+.boton-1 {
+  margin-top: 2rem;
+  color: rgb(41, 37, 37);
+  background: rgb(228, 222, 213);
+  outline: none;
+  border: antiquewhite;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+}
+
+.boton-sol {
+  margin-top: 2rem;
+  color: rgb(41, 37, 37);
+  background: rgb(228, 222, 213);
+  outline: none;
+  border: antiquewhite;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+}
+
+.boton-sm {
+  margin-top: 2rem;
+  color: rgb(41, 37, 37);
+  background: rgb(228, 222, 213);
+  outline: none;
+  border: antiquewhite;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+}
+
+.Texto-div {
+  width: 53%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem;
+}
+
+.info-card {
+  display: grid;
+  width: 300px;
+  background-color: rgba(46, 157, 216, 0.713);
+  color: white;
+  border: 30px solid rgb(47, 151, 151);
+  justify-content: center;
+  justify-items: center;
+  align-content: space-around;
+}
+
+/* FIN DE CSS DE INDEX */
+footer {
+  display: flex;
+  height: 20;
+  font-size: 20;
+  justify-content: space-evenly;
+  margin: 5rem;
+  padding: 5rem;
+}
+
+/* CSS de contacto */
+.titulo-contacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  color: rgb(8, 198, 59);
+}
+
+.grid-formulario {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 2ch;
+  padding: 2ch;
+}
+.grid-formulario .row-contacto {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.grid-formulario .mapa-contacto img {
+  display: grid;
+  width: 435px;
+  height: 350px;
+}
+
+/* fin de CSS de Contacto */
+/* INICIO CSS DE GAFAS OFTALMICAS */
+.grid-oftalmico {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: auto;
+  grid-template-areas: "Header Header" "oftalmico oftalmico" "footer footer";
+}
+
+.oftalmico {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 10;
+  justify-items: center;
+}
+
+.row {
+  display: flex;
+  border: black;
+  align-items: stretch;
+}
+
+.oftalmico article img {
+  display: grid;
+  width: 300px;
+  height: 200px;
+  border: rgb(0, 0, 0);
+  image-rendering: pixelated;
+}
+
+.card-oft img {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  border: solid rgb(0, 0, 0);
+}
+
+/* INICIO DE CSS DE GAFAS DE SOL */
+.Sol {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: "Header Header" "sol sol" "footer footer";
+}
+
+.Gafas-Sol {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 10;
+  justify-items: center;
+}
+
+.Gafas-Sol article {
+  width: 340px;
+  margin: 60px;
+  padding: 3px;
+  border: solid black;
+}
+
+.Gafas-Sol article img {
+  display: flex;
+  width: 300px;
+  height: 250px;
+}
+
+/*# sourceMappingURL=style.css.map */
