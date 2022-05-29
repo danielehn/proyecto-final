@@ -18,6 +18,7 @@ body {
 .card-body{
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .boton-index {
   margin-top: 2rem;
